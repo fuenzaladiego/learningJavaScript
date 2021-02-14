@@ -1,0 +1,83 @@
+CARACTERISTICAS
+
+LENGUAJE DE ALTO NIVEL
+INTERPRETADO
+DINAMICO
+DEBILMENTE TIPADO
+MULTI PARADIGMA
+CASE SENSITIVE
+NO NECESITA EL PUNTO Y COMA
+
+
+
+ESCRITURA DE CODIGO
+
+LOS IDDENTIFIFICADORES DEEB COMENZAR CON
+
+-Una letra o
+-Un signo de dolar $ o
+-Un Guion bajo _ 
+-Nunca con números o caracteres especiales
+
+Usa snake_case en : 
+Archivos
+
+mi_archivo_javascript.js
+
+Usa UPPER_CASE en
+-Constantes : 
+	const UNA_CONSTANTE. 'Soy una constante'. PI = 3.141592653589793
+
+
+USA UpperCamelCase en : 
+-Clases
+	class SerHumano
+
+
+Usa lowerCamelCase en : 
+-Objetos
+
+	const unObjeto ) {nombre : 'Jonathan',
+			   email : 'asdasd@asda.asd'
+			}
+-Primitios
+
+Let unaCadena = 'Hola q tal'
+
+-Funcinoes 
+
+Function holaMundo(hola)
+
+-Instancais
+
+
+
+
+COMO ORDENAR EL CODIGO
+
+1 importación de módulos
+2 declaración de variables
+3 declaración de funciones
+4 ejecución de codigo
+
+
+
+
+TIPOS DE DATOS
+
+PRIMITVOS
+
+String
+Number
+Boolean
+null+
+Undefined
+NAN
+
+COMPUESTOS : Se accede a la referencia del valor
+
+Object = {}
+Array = []
+Function () {}
+Class {}
+etc
