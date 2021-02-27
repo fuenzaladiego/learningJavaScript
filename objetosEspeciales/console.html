@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>Hola</h1>
+
+
+
+    <script>//Probar ese js con html
+
+
+        //Console es un objeto                      
+        
+        console.log(console);
+        
+        //Nos permite mandar mensajes la consola como si fueran alertas
+        console.error('Esto es un error');
+
+        //Para enviar informacion
+        console.info('Esto es informacion');
+        let nombre = 'Diego',
+        apellido = 'FUenzalida',
+        edad = 21;
+        //Puedes usar console como printf en C
+        console.log('Hola mi nombre es %s %s y tengo %i años',nombre,apellido,edad);
+        //Limpia la consola
+        console.clear();
+        //Me permite ver ago como objeto
+        console.dir(document);
+        console.clear
+        console.group('Lenguajes');
+        console.log('JavaScript');
+        console.log('Java');
+        console.log('Python');
+        console.log('R');
+        console.log('Swift');
+        console.log('C');
+        console.groupEnd();
+
+        console.clear();
+        console.table(Object.entries(console));
+        const numeros=[1,2,3,4,5],
+        vocales = ['a','e','i','o','u'];
+        console.table(numeros);
+        console.table(vocales);
+
+        const perro = {
+            nombre:'Diego',
+            raza:'Rotweiler',
+            edad : 7
+        }
+        console.clear();
+        console.table(perro);
+
+        let arreglo = [1,2,3,4,4,4,4,4,];
+
+        arreglo.forEach((element, index) => arreglo[index] = index );
+
+        arreglo.forEach(element => console.log(element));
+
+
+    </script>
+</body>
+</html>
