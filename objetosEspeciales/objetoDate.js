@@ -32,6 +32,6 @@ console.log(fecha.toLocaleDateString());
 console.log(fecha.toLocaleTimeString());
 //Nos da la region geografica
 console.log(fecha.getTimezoneOffset());
-
+ 
 //Date.now nos da cuando tiempo ha pasado desde 1 de enero de 1970
 console.log(Date.now());
