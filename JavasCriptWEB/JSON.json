@@ -1,0 +1,7 @@
+{
+    "cadena":"Diego",
+    "numero":21,
+    "booleano":true,
+    "arreglo":["Hola","Qeu","tal"],
+    "objeto":{"twitter":"@grannh","ig":"tailed_zaid"}
+}
